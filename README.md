@@ -50,11 +50,13 @@ clone this repo
 bash
 git clone https://github.com/keanehatescoding/WeatherApp/
 # cd to the project
+```bash
 cd WeatherApp
-
+```
 run your preffered http server while in this inside the project i.e for python run
-bash
+```bash
 python -m http.server
+```
 
 On your browser open (http://localhost:8000) or whatever port you project is running on.
 
