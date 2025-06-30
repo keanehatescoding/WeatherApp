@@ -80,6 +80,7 @@ By using, modifying or distributing this software, you agree to all terms and co
 
 # 🙏 Acknowledgments
 OpenWeatherMap – for providing robust, free-tier weather APIs.
+
 Contributors:  
 - [@keanehatescoding](https://github.com/keanehatescoding)  
 - [@easter-m](https://github.com/easter-m)  
