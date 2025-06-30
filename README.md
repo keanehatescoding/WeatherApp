@@ -29,6 +29,7 @@ A simple, responsive weather application that fetches current weather and a mult
 
   **Git**
 - Ensure git is installed on your machine to clone this repo. The official installation page for git is [here](https://git-scm.com/downloads).
+  
  **Server**
 - Ensure you have a http server to run the above code, you can use any of the options below:
 
