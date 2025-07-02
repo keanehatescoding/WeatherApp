@@ -32,7 +32,7 @@ function validateInput(city) {
         displayError("Please enter a city");
         return false;
     }
-
+    // check if the city provided is a valid city, XSS protection
     const validCityRegex = /^[a-zA-Z\s\-']+$/;
     if (!validCityRegex.test(city)) {
         displayError("Please enter a valid city name (letters only)");
@@ -183,8 +183,8 @@ function getWeatherEmoji(weatherId) {
 
 function displayError(message) {
     const errorDisplay = document.createElement("p");
+    errorDisplay.classList.add(".errorDisplay");
     errorDisplay.textContent = message;
-    errorDisplay.classList.add("errorDisplay");
     
     card.textContent = "";
     card.style.display = "flex";
